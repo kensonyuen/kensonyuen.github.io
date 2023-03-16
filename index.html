@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+        <link
+            href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+            rel="stylesheet"
+            />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Personal Website</title>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">Personal Resume</a>
+  
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/ka-nam-kenson-yuen-39074417a/" target="_blank" class="nav-link"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/kensonyuen" target="_blank" class="nav-link"><i class="bi bi-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section class="bg-dark text-light p-5 p-lg pt-lg-5 text-center text-sm-start">
+            <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between ">
+                    <div>
+                        <div class="font-size-xx-large">
+                            Welcome to my curriculum vitae, I am
+                        </div>
+                        <h1 id="name">Kenson Ka Nam <span class="text-info">Yuen</span></h1>
+                        <p class="lead my-4">
+                            who acquired knowledge through online courses and independent study, culiminating in the sucessful completion of projects.
+                        </p>
+                        <a href="#about" class="about-me">
+                            <button class="btn btn-light btn-lg">Know More About Me</button>
+                        </a>
+                    </div>
+                    <div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img class="img-fluid w-75 d-none d-sm-block" style="margin-left: 2em;"
+                        src="img/portrait.JPG" alt=""
+                        >
+                    </div>
+                    <div class="col-md p-5">
+                        <h2 class="text-info">About Me</h2>
+                        <p class="lead">
+                            Hotel management graduate, with 4 years experiences in customer services. Adept at motivating self and others to accomplish desired goals.
+                        </p>
+                        <p>
+                            I am enthusiastic about IT industry and eager to pursue a career that enables me to continually enhance my professional skills and expertise.
+                        </p>
+                        <a href="#resume" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-right"></i>Check Out My Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume -->
+        <section id="resume" class="bg-dark" style="background-color: #F0F2F5;">
+            <div class="container py-5">
+                <div class="main-timeline">
+                    <div class="timeline left">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <h3>2022</h3>
+                            <h5>Self-learning</h5>
+                            <p class="mb-0">I am currently self-learning <b>HTML, CSS, and React</b>, and I am also learning <b>Python</b> through a bootcamp.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="timeline right">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>2019</h3>
+                                <h5>Senior Guest Service Officier</h5>
+                                <h6>Mandarin Oriental Hong Kong</h6>
+                                <ul class="mb-0" style="line-height: 130%;">
+                                    <li>Top Upseller in 2021.</li>
+                                    <li>Top Recruiter in 2020 for customer loyalty programme.</li>
+                                    <li>Surprising guest to create memorable staying experience.</li>
+                                    <li>Monitoring front of house as shift leader.</li>
+                                    <li>Customer folio management.</li>
+                                    <li>Back of house inventory management.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline left">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>2016</h3>
+                                <h5>Marketing Trainee</h5>
+                                <h6>The Peninsula Hong Kong</h6>
+                                <ul class="mb-0" style="line-height: 130%;">
+                                    <li>Handling customers inquiry proactively.</li>
+                                    <li>Website design and content update on daily basis.</li>
+                                    <li>Customers' review analysis to generate valuable insights for higher management.</li>
+                                    <li>Conducting B2C Electronic Direct Mail (EDM).</li>
+                                    <li>Managing social media platform on daily basis.</li>
+                                    <li>Creating promotional campaigns to enhance brand value.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- education -->
+        <section>
+            <div class="section p-5">
+                <div class="container">
+                    <div class="row text-center g-3">
+                        <div class="col-md">
+                            <div class="educard bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-book-fill"></i>
+                                    </div>
+                                    <h3 class="card-title mb-3">
+                                        Hotel Management
+                                    </h3>
+                                    <p class="card-text">
+                                        The Hong Kong Polytechnic University
+                                    </p>
+                                    <p class="card-text">
+                                        2017 - 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="educard bg-secondary text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-book"></i>
+                                    </div>
+                                    <h3 class="card-title mb-3">
+                                        International Hospitality Management
+                                    </h3>
+                                    <p class="card-text">
+                                        École Hôtelière de Lausanne
+                                    </p>
+                                    <p class="card-text">
+                                        2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="p-5 bg-primary">
+            <div class="container">
+                <h2 class="text-center text-info">My Projects</h2>
+                <p class="lead text-center text-white mb-5">
+                    Here are the projects that I have created:
+                </p>
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md">
+                            <img src="img/personal-website.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md p-5 text-light">
+                            <h2>This Website</h2>
+                            <ul class="lead">
+                                <li style="font-size: 1.2em;">This is my first project, an online resume to showcase my work experience and project experience.</li>
+                                <li style="font-size: 1.2em;">It is a responsive webpage that can be browsed on any device.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">Created by Kenson Yuen, 2023</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
